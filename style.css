@@ -1,11 +1,11 @@
 @font-face {
   font-family: determination;
-  src: url(/fonts/undertale-determination-overworld.ttf);
+  src: url(./fonts/undertale-determination-overworld.ttf);
 }
 
 @font-face {
   font-family: undertale;
-  src: url(/fonts/undertale.ttf);
+  src: url(./fonts/undertale.ttf);
 }
 
 body {
