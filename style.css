@@ -1,0 +1,61 @@
+@font-face {
+  font-family: determination;
+  src: url(/fonts/undertale-determination-overworld.ttf);
+}
+
+@font-face {
+  font-family: undertale;
+  src: url(/fonts/undertale.ttf);
+}
+
+body {
+  color: white;
+  background: black;
+  font-family: determination;
+  text-align: center;
+
+  --colora: green;
+
+  background-image: linear-gradient(to right, var(--colora) 1px, transparent 1px), linear-gradient(to bottom, var(--colora) 1px, transparent 1px);
+  background-size: 80px 80px;
+  background-attachment: fixed;
+  animation: divmove 100s linear infinite;
+}
+
+@keyframes divmove {
+  from {background-position: 10% -10%;}
+  to {background-position: 110% -110%;}
+}
+
+h1, h2, h3, h4 {
+  font-family: undertale;
+  text-transform: uppercase;
+}
+
+a, b { color: yellow }
+a:hover, li:nth-child(2) { color: orange }
+
+p, ol {
+  max-width: 800px;
+  margin: 20px auto;
+
+  border: solid white 5px;
+  padding: 20px;
+
+  background: black;
+}
+
+ol {
+  text-align: left;
+  padding-left: 50px;
+  color: yellow
+}
+
+code {
+  font-size: 1.5em;
+  color: cyan;
+}
+
+.highlight {
+  color: orange;
+}
